@@ -204,6 +204,28 @@ img, picture, svg, video, canvas {
   -webkit-touch-callout: none;
 }
 
+/* WAF & Rate Limiter Security Status Badge */
+.waf-shield-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 8px 16px;
+  background: rgba(223, 147, 84, 0.08);
+  border: 1px solid rgba(223, 147, 84, 0.4);
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-warm-amber);
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.waf-shield-badge svg {
+  color: var(--color-warm-amber);
+  flex-shrink: 0;
+}
+
 /* --- Sticky Modern Navigation Bar --- */
 .site-header {
   position: sticky;
