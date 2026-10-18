@@ -1,0 +1,19 @@
+{
+  "name": "solicitation-profile",
+  "version": "1.0.0",
+  "description": "Technopreneurship Educational Tour Solicitation Landing Page for Antonio Jr. S. Del Rosario",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve . -p 3000",
+    "start": "npx -y serve . -p 3000",
+    "serve": "python -m http.server 3000"
+  },
+  "keywords": [
+    "solicitation",
+    "landing-page",
+    "technopreneurship",
+    "education"
+  ],
+  "author": "Antonio Jr. S. Del Rosario",
+  "license": "ISC"
+}
